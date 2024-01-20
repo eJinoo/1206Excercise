@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "rethink", sans-serif; }
+
+h1 {
+  color: #3f6cce;
+  text-align: center; }
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 20px;
+  gap: 16px; }
+  header nav ul li a {
+    text-decoration: none;
+    color: #9d9898;
+    border: 1px solid #9d9898;
+    border-radius: 5px;
+    padding: 4px 16px; }
+
+/*# sourceMappingURL=style.css.map */

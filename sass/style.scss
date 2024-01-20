@@ -1,0 +1,37 @@
+@import 'modules/mixins';
+@import 'modules/variable';
+@import 'modules/typography';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $font-family-rethink;
+}
+
+h1 {
+    color: $primary-colour;
+    text-align: center;
+    font-size: 30px;
+}
+
+header {
+    nav {
+        ul {
+            list-style-type: none;
+            @include felxcont(column, space-between, center);
+            padding: 10px;
+            font-size: 20px;
+            gap: 16px;
+
+            li {
+                a {
+                    text-decoration: none;
+                    color: $tertiary-colour;
+                    border: 1px solid $tertiary-colour;
+                    border-radius: 5px;
+                    padding: 4px 16px;
+                }
+            }
+        }
+    }
+}
